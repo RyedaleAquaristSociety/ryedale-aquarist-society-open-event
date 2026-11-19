@@ -1,7 +1,7 @@
 ---
 layout: article
 title: Food & Drink
-excerpt: Hot and cold food, cakes and drinks on draught
+excerpt: Hot and cold food, cakes, drinks on draught
 ---
 
 ![The venue's bar with beer pumps and a television behind]({{ '/assets/images/bar.jpg' | relative_url }})

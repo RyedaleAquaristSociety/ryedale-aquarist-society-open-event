@@ -25,10 +25,6 @@
   }
 }
 
-.text-center {
-  text-align: center;
-}
-
 .countdown {
   display: flex;
   justify-content: center;
@@ -72,12 +68,13 @@
   }
 }
 
-.fish-list {
-  margin: 0 auto 2rem;
+.article__content .fish-list {
+  width: fit-content;
+  margin: 0 auto 3.5rem;
   padding: 0;
   font-size: 1.5rem;
   list-style: none;
-  text-align: center;
+  text-align: left;
   @media (max-width: 559.98px) {
     font-size: 1.25rem;
   }
@@ -103,13 +100,20 @@
 
   @media (min-width: 640px) {
     display: flex;
-    align-items: center;
+    align-items: stretch;
     justify-content: center;
     gap: 2.5rem;
 
     & > .fish-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
       margin: 0;
       text-align: left;
+
+      & > li {
+        margin: 0;
+      }
     }
 
     & > .event-video {
@@ -137,8 +141,33 @@
   }
 }
 
-.venue-logo {
+.venue-pair {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.venue-pair__logo {
+  flex: 0 1 176px;
+  min-width: 0;
+}
+
+.venue-pair__photo {
+  flex: 0 1 250px;
+  min-width: 0;
+}
+
+.article__content img.fish-show-photo {
   display: block;
-  max-width: 200px;
+  max-width: 410px;
+  width: 100%;
   margin: 0 auto;
 }
