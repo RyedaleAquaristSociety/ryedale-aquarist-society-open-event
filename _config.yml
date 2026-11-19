@@ -1,10 +1,13 @@
-remote_theme: RyedaleAquaristSociety/ryedale-aquarist-society-theme@v1.0.3
-text_skin: event
+remote_theme: RyedaleAquaristSociety/ryedale-aquarist-society-theme@v1.0.5
+text_skin: event-green
 highlight_theme: tomorrow-night
 url: https://event.ryedaleaquaristsociety.org.uk
 baseurl:
 title: Ryedale Aquarist Society Open Event 2027
-nav_title: Open Event 2027
+nav_title: Ryedale Aquarist Society
+nav_link_title: Go to the Ryedale Aquarist Society website
+paths:
+  root: https://www.ryedaleaquaristsociety.org.uk/
 description: All details for the Ryedale Aquarist Society Open Event 2027
 
 author:
@@ -45,9 +48,7 @@ defaults:
         type: overlay
         theme: dark
         align: center
-        background_color: '#1a1e54'
         background_image:
-          gradient: 'linear-gradient(to bottom, rgba(26, 30, 84, .8), rgba(18, 66, 74, .8))'
           src: /assets/images/header.jpg
 
 plugins:

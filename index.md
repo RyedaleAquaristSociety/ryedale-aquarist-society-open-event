@@ -1,8 +1,10 @@
 ---
 layout: article
 title: Ryedale Aquarist Society Open Event 2027
+title_html: Ryedale Aquarist Society<br>Open Event 2027
 show_title: true
 excerpt: Sunday June 13th 2027 - Free Entry -
+excerpt_html: Sunday June 13th 2027<br>- Free Entry -
 description: All details for the Ryedale Aquarist Society Open Event 2027
 header_logo: /assets/images/open-event-logo.png
 ---
@@ -13,6 +15,8 @@ header_logo: /assets/images/open-event-logo.png
   <div><span class="countdown__value" data-unit="minutes">--</span><span class="countdown__label">Mins</span></div>
   <div><span class="countdown__value" data-unit="seconds">--</span><span class="countdown__label">Secs</span></div>
 </div>
+
+<div class="event-highlights">
 
 <ul class="fish-list">
   <li>Live Tropical Fish Show</li>
@@ -30,6 +34,8 @@ header_logo: /assets/images/open-event-logo.png
   <a href="{{ '/assets/videos/open-event-2026.mp4' | relative_url }}">Footage from our 2026 event</a>
 </video>
 
+</div>
+
 Save the date, come and join us for a great family day out!
 {: .text-center}
 
@@ -37,10 +43,6 @@ Save the date, come and join us for a great family day out!
   <a href="{{ '/assets/images/gallery/denison-barb-large.jpg' | relative_url }}"><img src="{{ '/assets/images/gallery/denison-barb.jpg' | relative_url }}" alt="A photograph of a Denison Barb in a small show tank. The fish faces to the right and is side on."></a>
   <a href="{{ '/assets/images/gallery/turquoise-rainbowfish-large.jpg' | relative_url }}"><img src="{{ '/assets/images/gallery/turquoise-rainbowfish.jpg' | relative_url }}" alt="A photograph of a turquoise rainbowfish in a small show tank. The fish faces to the right and is side on."></a>
 </div>
-
-## Contact us on...
-
-[Facebook](https://www.facebook.com/profile.php?id=61588121637369) or email [ryedaleaquaristsociety@yahoo.co.uk](mailto:ryedaleaquaristsociety@yahoo.co.uk)
 
 <script>
   (function () {

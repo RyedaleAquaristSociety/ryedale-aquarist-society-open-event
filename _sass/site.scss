@@ -2,6 +2,29 @@
   @include header-stacked;
 }
 
+.header {
+  border-bottom: 1px solid $event-edge;
+  box-shadow: 1px 1px 2px rgba($event-edge, .6);
+}
+
+.footer {
+  border-top: 1px solid $event-edge;
+}
+
+.article__header--overlay .hero {
+  position: relative;
+  isolation: isolate;
+  background-color: $event-main;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: linear-gradient(to bottom, $event-hero-top, $event-hero-bottom);
+  }
+}
+
 .text-center {
   text-align: center;
 }
@@ -9,46 +32,58 @@
 .countdown {
   display: flex;
   justify-content: center;
-  margin: 0 auto 2rem;
+  margin: 0 auto 2.5rem;
 
   & > div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    min-width: 4.5rem;
-    padding: 0 0.75rem;
-    border-left: 1px solid rgba($main-color-1, 0.3);
+    min-width: 7rem;
+    padding: 0 1rem;
+    border-left: 1px solid rgba($main-color-1, 0.4);
 
     &:first-child {
       border-left: 0;
+    }
+
+    @media (max-width: 559.98px) {
+      min-width: 0;
+      padding: 0 0.6rem;
     }
   }
 }
 
 .countdown__value {
   color: $main-color-1;
-  font-size: 2.5rem;
+  font-size: 4rem;
   font-variant-numeric: tabular-nums;
   line-height: 1.1;
-  @include media-breakpoint-down(md) {
-    font-size: 1.75rem;
+  @media (max-width: 559.98px) {
+    font-size: 2.5rem;
   }
 }
 
 .countdown__label {
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+  @media (max-width: 559.98px) {
+    font-size: 0.85rem;
+  }
 }
 
 .fish-list {
   margin: 0 auto 2rem;
   padding: 0;
+  font-size: 1.5rem;
   list-style: none;
   text-align: center;
+  @media (max-width: 559.98px) {
+    font-size: 1.25rem;
+  }
 
   & > li {
-    margin: 0.25rem 0;
+    margin: 0.4rem 0;
 
     &::before {
       content: "\1F41F\00A0";
@@ -61,6 +96,27 @@
   width: 100%;
   max-width: 360px;
   margin: 0 auto 2rem;
+}
+
+.event-highlights {
+  margin-bottom: 2rem;
+
+  @media (min-width: 640px) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+
+    & > .fish-list {
+      margin: 0;
+      text-align: left;
+    }
+
+    & > .event-video {
+      flex: 0 1 300px;
+      margin: 0;
+    }
+  }
 }
 
 .event-gallery {
