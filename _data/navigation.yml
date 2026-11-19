@@ -1,0 +1,24 @@
+header:
+  - title: Home
+    url: /index.html
+
+  - title: FAQs
+    url: /faqs.html
+
+  - title: Location
+    url: /location.html
+
+  - title: Schedule
+    url: /schedule.html
+
+  - title: Vendors
+    url: /vendors.html
+
+  - title: Fish Show
+    url: /fish-show.html
+
+  - title: Tombola
+    url: /tombola.html
+
+  - title: Food & Drink
+    url: /food-and-drink.html

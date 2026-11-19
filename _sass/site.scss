@@ -1,0 +1,88 @@
+@media (min-width: 820px) {
+  @include header-stacked;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto 2rem;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-width: 4.5rem;
+    padding: 0 0.75rem;
+    border-left: 1px solid rgba($main-color-1, 0.3);
+
+    &:first-child {
+      border-left: 0;
+    }
+  }
+}
+
+.countdown__value {
+  color: $main-color-1;
+  font-size: 2.5rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+  @include media-breakpoint-down(md) {
+    font-size: 1.75rem;
+  }
+}
+
+.countdown__label {
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.fish-list {
+  margin: 0 auto 2rem;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+
+  & > li {
+    margin: 0.25rem 0;
+
+    &::before {
+      content: "\1F41F\00A0";
+    }
+  }
+}
+
+.event-video {
+  display: block;
+  width: 100%;
+  max-width: 360px;
+  margin: 0 auto 2rem;
+}
+
+.event-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  & > a {
+    flex: 1 1 240px;
+    max-width: 360px;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+  }
+}
+
+.venue-logo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto;
+}

@@ -1,0 +1,57 @@
+remote_theme: RyedaleAquaristSociety/ryedale-aquarist-society-theme@v1.0.3
+text_skin: event
+highlight_theme: tomorrow-night
+url: https://event.ryedaleaquaristsociety.org.uk
+baseurl:
+title: Ryedale Aquarist Society Open Event 2027
+nav_title: Open Event 2027
+description: All details for the Ryedale Aquarist Society Open Event 2027
+
+author:
+  type: organization
+  name: Ryedale Aquarist Society
+  email: ryedaleaquaristsociety@yahoo.co.uk
+  facebook: p/Ryedale-Aquarist-Society-61588121637369
+
+license: false
+
+sharing:
+  provider: false
+comments:
+  provider: false
+pageview:
+  provider: false
+search:
+  provider: default
+analytics:
+  provider: false
+
+markdown: kramdown
+highlighter: rouge
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor/
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/site-preview.jpg
+      seo_description_max_words: 20
+      article_header:
+        type: overlay
+        theme: dark
+        align: center
+        background_color: '#1a1e54'
+        background_image:
+          gradient: 'linear-gradient(to bottom, rgba(26, 30, 84, .8), rgba(18, 66, 74, .8))'
+          src: /assets/images/header.jpg
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jemoji
+  - jekyll-seo-tag
