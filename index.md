@@ -37,6 +37,7 @@ header_logo: /assets/images/open-event-logo.png
 </div>
 
 Save the date, come and join us for a great family day out!
+{: .text-center}
 
 <div class="event-gallery">
   <a href="{{ '/assets/images/gallery/denison-barb-large.jpg' | relative_url }}"><img src="{{ '/assets/images/gallery/denison-barb.jpg' | relative_url }}" alt="A photograph of a Denison Barb in a small show tank. The fish faces to the right and is side on."></a>
