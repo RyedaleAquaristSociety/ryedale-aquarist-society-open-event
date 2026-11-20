@@ -1,5 +1,50 @@
+@use "sass:map";
+
 @media (min-width: 820px) {
   @include header-stacked;
+}
+
+@media (min-width: 500px) {
+  .navigation .navigation__item {
+    margin: 0.2rem 0.4rem 0.2rem 0;
+
+    &::after {
+      display: none;
+    }
+
+    & > a {
+      padding: 0.15rem 0.5rem;
+      border: 1px solid rgba(#fff, .5);
+      border-radius: 0.3rem;
+      background-color: rgba(#fff, .06);
+
+      &:hover {
+        background-color: rgba(#fff, .16);
+      }
+    }
+  }
+
+  .navigation .navigation__item--active > a {
+    border-color: #fff;
+    background-color: rgba(#fff, .22);
+  }
+}
+
+@media (max-width: 499.98px) {
+  .header__title {
+    white-space: normal;
+
+    & > .header__brand {
+      height: auto;
+      min-height: map.get($layout, header-height-sm);
+      padding: 0.35rem 0;
+
+      & > a {
+        overflow: visible;
+        line-height: 1.25;
+      }
+    }
+  }
 }
 
 .text-center {

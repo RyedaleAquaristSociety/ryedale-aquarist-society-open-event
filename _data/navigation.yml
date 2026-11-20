@@ -2,9 +2,6 @@ header:
   - title: Home
     url: /index.html
 
-  - title: FAQs
-    url: /faqs.html
-
   - title: Location
     url: /location.html
 
@@ -22,3 +19,9 @@ header:
 
   - title: Food & Drink
     url: /food-and-drink.html
+
+  - title: FAQs
+    url: /faqs.html
+
+  - title: Main Site
+    url: https://www.ryedaleaquaristsociety.org.uk/
