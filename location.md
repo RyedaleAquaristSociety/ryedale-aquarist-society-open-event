@@ -1,6 +1,7 @@
 ---
 layout: article
 title: Location
+excerpt: Where to find us on the day
 ---
 
 ## Pickering Recreation Club
