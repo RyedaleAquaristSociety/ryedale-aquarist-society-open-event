@@ -40,8 +40,8 @@ Save the date, come and join us for a great family day out!
 {: .text-center}
 
 <div class="event-gallery">
-  <a href="{{ '/assets/images/gallery/denison-barb-large.jpg' | relative_url }}"><img src="{{ '/assets/images/gallery/denison-barb.jpg' | relative_url }}" alt="A photograph of a Denison Barb in a small show tank. The fish faces to the right and is side on."></a>
-  <a href="{{ '/assets/images/gallery/turquoise-rainbowfish-large.jpg' | relative_url }}"><img src="{{ '/assets/images/gallery/turquoise-rainbowfish.jpg' | relative_url }}" alt="A photograph of a turquoise rainbowfish in a small show tank. The fish faces to the right and is side on."></a>
+  <a href="{{ '/assets/images/gallery/denison-barb-large.jpg' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/gallery/denison-barb.jpg' | relative_url }}" alt="A photograph of a Denison Barb in a small show tank. The fish faces to the right and is side on."><span class="visually-hidden"> (opens in a new window)</span></a>
+  <a href="{{ '/assets/images/gallery/turquoise-rainbowfish-large.jpg' | relative_url }}" target="_blank" rel="noopener"><img src="{{ '/assets/images/gallery/turquoise-rainbowfish.jpg' | relative_url }}" alt="A photograph of a turquoise rainbowfish in a small show tank. The fish faces to the right and is side on."><span class="visually-hidden"> (opens in a new window)</span></a>
 </div>
 
 <script>
