@@ -28,6 +28,7 @@ analytics:
 
 markdown: kramdown
 highlighter: rouge
+permalink: pretty
 
 exclude:
   - Gemfile

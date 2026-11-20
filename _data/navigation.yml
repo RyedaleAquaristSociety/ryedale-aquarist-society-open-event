@@ -1,27 +1,27 @@
 header:
   - title: Home
-    url: /index.html
+    url: /
 
   - title: Location
-    url: /location.html
+    url: /location/
 
   - title: Schedule
-    url: /schedule.html
+    url: /schedule/
 
   - title: Vendors
-    url: /vendors.html
+    url: /vendors/
 
   - title: Fish Show
-    url: /fish-show.html
+    url: /fish-show/
 
   - title: Tombola
-    url: /tombola.html
+    url: /tombola/
 
   - title: Food & Drink
-    url: /food-and-drink.html
+    url: /food-and-drink/
 
   - title: FAQs
-    url: /faqs.html
+    url: /faqs/
 
   - title: Main Site
     url: https://www.ryedaleaquaristsociety.org.uk/
