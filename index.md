@@ -29,10 +29,13 @@ header_logo: /assets/images/open-event-logo.png
   <li>Excellent social scene</li>
 </ul>
 
-<video class="event-video" controls preload="metadata" poster="{{ '/assets/videos/open-event-2026-poster.jpg' | relative_url }}">
-  <source src="{{ '/assets/videos/open-event-2026.mp4' | relative_url }}#t=2" type="video/mp4">
-  <a href="{{ '/assets/videos/open-event-2026.mp4' | relative_url }}">Footage from our 2026 event</a>
-</video>
+<figure class="event-video">
+  <video controls preload="metadata" poster="{{ '/assets/videos/open-event-2026-poster.jpg' | relative_url }}">
+    <source src="{{ '/assets/videos/open-event-2026.mp4' | relative_url }}#t=2" type="video/mp4">
+    <a href="{{ '/assets/videos/open-event-2026.mp4' | relative_url }}">Footage from our 2026 event</a>
+  </video>
+  <figcaption>Our Open Event on June 21st 2026</figcaption>
+</figure>
 
 </div>
 

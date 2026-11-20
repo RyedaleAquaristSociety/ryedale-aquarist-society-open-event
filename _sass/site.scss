@@ -137,11 +137,22 @@
   }
 }
 
-.event-video {
+.article__content .event-video {
   display: block;
   width: 100%;
   max-width: 360px;
   margin: 0 auto 2rem;
+
+  video {
+    display: block;
+    width: 100%;
+  }
+
+  figcaption {
+    margin-top: .5rem;
+    font-size: .9rem;
+    text-align: center;
+  }
 }
 
 .event-highlights {
